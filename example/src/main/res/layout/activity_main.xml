@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/click_toast"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Toast" />
+
+        <TextView
+            android:id="@+id/click_glide"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="图片加载"
+            android:gravity="center"/>
+
+         <TextView
+            android:id="@+id/click_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="刷新加载"
+            android:gravity="center"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Example</string>
+    <string name="toast_namt">我点击了Toast</string>
+</resources>
